@@ -49,4 +49,6 @@ if (process.env.SENTRY_AUTH_TOKEN) {
   })
 }
 
+config.output = 'standalone'
+
 module.exports = config
